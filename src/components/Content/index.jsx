@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import work from  "../../assets/img/work.png";
+import Assets from  "../../assets";
 
 
 const CustomContent = styled.div`
@@ -11,7 +11,7 @@ display: flex;
 flex-direction: row;
 border-radius: 9px 9px 9px 9px;
     .image{
-        background: url(${work});
+        background: url(${Assets.work});
         background-size: cover;
         background-repeat: no-repeat;
         

@@ -48,6 +48,8 @@ export default function HomePage()
         <Comps.Card  name="card 03" />
 
         </Two>
+        <One>
+         </One>
 
         {/* FOOTER */}
         <Comps.Footer />

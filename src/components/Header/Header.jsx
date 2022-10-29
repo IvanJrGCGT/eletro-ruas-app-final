@@ -1,14 +1,10 @@
 import styled from "styled-components";
-import logo from  "../../assets/img/logo.png";
-import work from  "../../assets/img/work.png";
-
-
-import Colors from '../../assets/Colors';
+import Assets from '../../assets';
 
 
 const CustomHeader = styled.div`
     .root{
-        display: flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -16,7 +12,7 @@ const CustomHeader = styled.div`
     width: 100vw;
     height: 25vh;
 
-    color: ${Colors.branco};
+    color: ${Assets.Colors.branco};
     background:linear-gradient(  to bottom, #152023 0%,  #15202300 100%);
     transition: all 2s ;
 
@@ -24,7 +20,7 @@ const CustomHeader = styled.div`
     padding: 0;
     }
     .logo{
-   /*      background: url(${logo});
+   /*     
         background-size: contain;
         width: 100px;
         height: 100px; */
@@ -41,7 +37,7 @@ const CustomHeader = styled.div`
         font-weight: 1000;
     }
     .title{
-        color: ${Colors.amarelo};
+        color: ${Assets.Colors.amarelo};
         font-size: 24pt;
     }
     .btn{
